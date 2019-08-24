@@ -8,24 +8,27 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<!-- the header -->
-<div class="header">
-    <div class="header-wrapper">
-        <h2>Daniel <span>De Neef</span></h2>
-        <p>Java Web Developer</p>
-    </div>
-</div>
 
-<!-- the navigaiton bar -->
+<!-- desktop navigation bar -->
+<div class="navigation-bar">    
+    <!-- the header -->
+    <div class="header">
+        <div class="header-wrapper">
+            <h2>Daniel <span>De Neef</span></h2>
+            <p>Java Web Developer</p>
+        </div>
+    </div>
+
+    <!-- the navigaiton bar -->
     <div class="navigation">
         <ul>
-            <a href="#home"><li>Home</li></a>
             <a href="#about"><li>About</li></a>
             <a href="#skills"><li>Skills</li></a>
             <a href="#language"><li>Languages</li></a>            
             <a href="#xp"><li>Carrière</li></a>
         </ul>
     </div>
+</div>
 
 <!-- the main site with all the containers -->
     <div class="main-site">
@@ -33,7 +36,7 @@
         <div class="box" id="about">
             <div class="box-picture"><img src="img/office-932926_1920.jpg" alt="none"></div>
             <div class="box-title"><h2>About</h2></div>
-            <div class="box-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, earum nihil iusto quas, iure officiis sed, praesentium nam ad laudantium itaque. Possimus veritatis officiis debitis ex quia? Minus velit expedita quisquam voluptate odio accusamus quia rerum soluta nesciunt. Ex expedita veniam necessitatibus ipsam nisi quaerat cum voluptatem! Accusamus, provident deserunt?</div>
+            <div class="box-info">After years as a hobby programmer I decided to follow a course to broaden my knowledge to Java Web Developer and to switch my career to this sector. Now I would like to work as a JAVA developer.</div>
         </div>
 
         <div class="box" id="skills">
@@ -99,55 +102,60 @@
             <div class="box-picture"><img src="img/carriere.jpg" alt="expierence"></div>
             <div class="box-title"><h2>Expierence</h2></div>
             
-            <div class="xp-box">
-                <!-- 1 -->
-                <div class="xp-info-box">
-                    <h3>2019-2020</h3>
-                    <h2>Intec Brussel</h2>
-                    <h4>Java developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quis repellendus reprehenderit, ducimus accusamus deleniti quaerat unde eaque. Quibusdam, cupiditate! Pariatur alias beatae iste.</p>
+            <!-- desktop wrapper -->
+            <div class="xp-wrapper">
+                    <div class="xp-box one">
+                        <!-- 1 -->
+                        <div class="xp-info-box">
+                            <h3>2019-2020</h3>
+                            <h2>Intec Brussel</h2>
+                            <h4>Java developer</h4>
+                            <p>Training as a Java web developer, this training allows me to make a transition from the automotive world to the ICT world. during this training I learned Java programming, hibernate, Jpa, JSP, html, css, javascript, Spring</p>
+                        </div>
+                    </div>
+    
+                    <div class="vertical-line"></div>
+                    
+                    <div class="xp-box two">
+                        <!-- 2 -->
+                        <div class="xp-info-box">
+                            <h3>2011-2018</h3>
+                            <h2>Magna</h2>
+                            <h4>Quality Engineer</h4>
+                            <p>As a quality engineer I was responsible for handling customer complaints by setting up a team from different departments so that the problem could be dealt quickly and effectively.</p>
+                        </div>
+                    </div>
+    
+                    <div class="xp-box three">
+                        <!-- 3 -->
+                        <div class="xp-info-box">
+                            <h3>2009-2011</h3>
+                            <h2>Magna</h2>
+                            <h4>Shift leader</h4>
+                            <p>As a shift leader, I was responsible for set the right employees on the right workplace and ensuring that they are properly trained. comunicate with several support devision if some production issues ocures</p>
+                        </div>
+                    </div>
+    
+                    <div class="xp-box four">
+                        <!-- 4 -->
+                        <div class="xp-info-box">
+                            <h3>2005-2009</h3>
+                            <h2>Magna</h2>
+                            <h4>Shift Leader Assistance</h4>
+                            <p>my job as team leader assistant was to assist the team leader in managing the team by replacing the absent employee, training the new employee and unlocking the production slowdown.</p>
+                        </div>
+                    </div>
+    
+                    <div class="xp-box five">
+                        <!-- 5 -->
+                        <div class="xp-info-box">
+                            <h3>2004-2005</h3>
+                            <h2>Magna</h2>
+                            <h4>Production Operator</h4>
+                            <p>my job was to follow a work instruction and apply to the letter that was described.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-             
-            <div class="xp-box">
-                <!-- 2 -->
-                <div class="xp-info-box">
-                    <h3>2011-2018</h3>
-                    <h2>Magna</h2>
-                    <h4>Quality Engineer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quis repellendus reprehenderit, ducimus accusamus deleniti quaerat unde eaque. Quibusdam, cupiditate! Pariatur alias beatae iste.</p>
-                </div>
-            </div>
-
-            <div class="xp-box">
-                 <!-- 3 -->
-                 <div class="xp-info-box">
-                    <h3>2010-2011</h3>
-                    <h2>Magna</h2>
-                    <h4>Shift leader</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quis repellendus reprehenderit, ducimus accusamus deleniti quaerat unde eaque. Quibusdam, cupiditate! Pariatur alias beatae iste.</p>
-                </div>
-            </div>
-
-            <div class="xp-box">
-                 <!-- 4 -->
-                 <div class="xp-info-box">
-                    <h3>2006-2009</h3>
-                    <h2>Magna</h2>
-                    <h4>Shift Leader Assistance</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quis repellendus reprehenderit, ducimus accusamus deleniti quaerat unde eaque. Quibusdam, cupiditate! Pariatur alias beatae iste.</p>
-                </div>
-            </div>
-
-            <div class="xp-box">
-                 <!-- 5 -->
-                 <div class="xp-info-box">
-                    <h3>2004-2006</h3>
-                    <h2>Magna</h2>
-                    <h4>Production Operator</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quis repellendus reprehenderit, ducimus accusamus deleniti quaerat unde eaque. Quibusdam, cupiditate! Pariatur alias beatae iste.</p>
-                </div>
-            </div>
         </div>
     </div>
 

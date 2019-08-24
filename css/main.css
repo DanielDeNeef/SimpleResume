@@ -3,6 +3,7 @@
 @import "boxes.css";
 @import "footer.css";
 @import "tabletView.css";
+@import "desktopView.css";
 
 * {
     margin: 0;
