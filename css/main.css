@@ -2,6 +2,7 @@
 @import "header.css";
 @import "boxes.css";
 @import "footer.css";
+@import "tabletView.css";
 
 * {
     margin: 0;

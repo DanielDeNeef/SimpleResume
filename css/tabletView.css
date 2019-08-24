@@ -1,0 +1,84 @@
+@media ( min-width:750px){
+
+  /*Header part*/
+  .header-wrapper h2{
+    font-size: 150px;
+    line-height: 110px;
+  }
+
+  .header-wrapper span{
+    display: block;
+  }
+
+  .header-wrapper p{
+    margin-top: 30px;
+    font-size: 40px;
+  }
+
+  /*box setup*/
+  .box-title h2{
+    font-size: 4em;
+    line-height: 3em;
+  }
+
+  .box-picture{
+    height: 450px;
+  }
+
+  .box-picture img{
+    height: 100%;
+    width: 100%;
+  }
+
+  /*about part*/
+  .box-info{
+    font-size: 2em;
+  }
+
+  /*Skills part*/
+  .skillset{
+    width: 90vw;
+  }
+
+  .skillset p{
+    font-size: 1.5em;
+    line-height: 2.5em;
+  }
+
+  /*Language part*/
+  .lang-wrapper{
+    height: 500px;
+  } 
+
+  .lang-icon p{
+    font-size: 2em;
+  }
+
+  /*expierence part*/
+  .xp-box{
+    width: 720px;
+    margin-bottom: 20px;
+  }
+
+  .xp-info-box h3{
+    font-size: 2em;
+  }
+
+  .xp-info-box h2{
+    font-size:2.5em 
+  }
+
+  .xp-info-box p, h4{
+    font-size: 1.5em;
+  }
+
+  .xp-info-box h4{
+    font-weight: bold;
+  }
+
+  /*footer*/
+  .footer{
+    font-size: 1.5em;
+  }
+  
+}

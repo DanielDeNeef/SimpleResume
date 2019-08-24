@@ -26,9 +26,13 @@
 
 /*Languages box*/
 
+.lang-wrapper{
+    height: 250px;
+}
+
 .lang-box{
     width: 50%;
-    margin-top: 20px; 
+    margin: 10px 0; 
 }
 
 .lang-icon{
