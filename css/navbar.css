@@ -1,0 +1,25 @@
+.navigation {
+    background-color: #111;
+    height: 100vh;
+}
+
+.navigation ul{
+    text-align: center;
+}
+
+.navigation ul li{
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
+    line-height: 20vh;
+}
+
+.navigation ul li:hover {
+    background-color: rgb(51, 50, 50);
+}
+

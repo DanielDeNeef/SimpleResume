@@ -1,0 +1,91 @@
+.box{
+    margin-bottom:40px;
+}
+
+.box-title{
+    line-height: 5em;
+    text-align: center;
+}
+
+.box-title h2{
+    font-size: 2em;
+}
+
+.box-info {
+    text-align: justify;
+}
+
+.box-info{
+    padding: 0 20px;
+}
+
+.box-picture img{
+    width: 100%;
+
+}
+
+/*Languages box*/
+
+.lang-box{
+    width: 50%;
+    margin-top: 20px; 
+}
+
+.lang-icon{
+    width: 100%;
+    text-align: center;
+}
+
+.lang-icon img{
+    width: 50%;
+    border: 0.5px solid #111;
+    border-radius: 50%;
+}
+
+.lang-icon p{
+    margin-top: 2px;
+}
+
+.left {
+    float: left;
+}
+
+.right  {
+    float: right;
+}
+
+/*SkillSet CSS*/
+
+.skillset{
+    margin: 10px 10px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 0 25px 25px 0;
+}
+
+.skillset p{
+    background-color: blue;
+    color: #fff;
+    font-size: 1em;
+    padding-left:1em; 
+    line-height: 1.5em;
+    text-shadow: 2px 0 3px #111;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*Expierence */
+
+.xp-box{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgba(223, 219, 219, 0.548);
+    box-shadow: 2px 2px 8px #111;
+}
+
+.xp-info-box p{
+    text-align: justify;
+}
+
+.xp-info-box h2{
+    color:blue;
+}
